@@ -22,7 +22,6 @@ module.exports = {
 		'comma-dangle': ['error', 'always-multiline'],
 		'arrow-parens': ['error', 'always'],
 		'no-underscore-dangle': 0,
-		'no-shadow': 0,
-		'no-undef': 0
+		'no-shadow': 0
 	},
 };
