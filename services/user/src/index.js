@@ -24,7 +24,8 @@ broker.createService({
 	},
 	events: {
 		listed(ctx) {
-			console.log('event');
+			console.log('Data from event');
+			console.log(ctx.params);
 		},
 	},
 });
